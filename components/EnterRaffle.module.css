@@ -1,0 +1,25 @@
+.raffle-entrance {
+  /* margin-top: 2rem; */
+  border-top: 1px solid rgb(55, 55, 55);
+}
+
+.enter-raffle {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  /* gap: 2rem; */
+}
+.btn-enter-raffle {
+  height: 3rem;
+  min-width: 10rem;
+  color: var(--color-primary-blue);
+  border-color: var(--color-primary-blue);
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.btn-enter-raffle:hover,
+.btn-enter-raffle:active {
+  background-color: rgb(204, 236, 255);
+}
